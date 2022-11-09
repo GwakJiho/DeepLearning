@@ -1,0 +1,8 @@
+{
+    "option" :{
+        "batch_size" : [128,100,10],
+        "use_Dropout" : ["True", "False"],
+        "node_size" : [[64,32,16],[128,64,32],[50,30,20]]
+    }
+}
+

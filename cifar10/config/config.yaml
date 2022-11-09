@@ -1,0 +1,27 @@
+network:
+    input_size: 3072
+    hidden_size: [128,128,128]
+    output_size: 10
+    weight_init_std : 0.01
+    use_batchnorm : False
+    use_Dropout: True
+    dropout_ratio: 0.2
+    weight_decay : 0
+    use_weights : False
+    
+train:
+    validation_rate: 0.2
+    epochs: 100
+    batch_size: 128
+    optimizer: 'Adam'
+    lr : 0.001
+    verbose: True
+    save_weight: True
+    log_file: 'results/train.log'
+    
+    
+test:
+    log_file: 'result/test.log'
+    
+weight:
+    file: 'weights/weight.npy'

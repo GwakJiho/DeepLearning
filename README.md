@@ -2,4 +2,5 @@
 
 --------- 
 > Dataset training test
-1. cifar10 
+- cifar10 - Basic Layer
+- STL10 (transfer learning)
